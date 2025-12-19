@@ -1,0 +1,30 @@
+﻿/* ============================================================
+   NEO CORE 3.0 — CONTENT STYLESHEET
+   Perception Layer • Client-Side Only • Zero UI Intrusion
+   ------------------------------------------------------------
+   This file intentionally contains NO symbols, NO markers,
+   NO pseudo-elements, and NO decorative overlays.
+
+   All visual elements related to the veil must be created and
+   governed solely by content.js. CSS must NEVER introduce any
+   UI artifacts, icons, or markers on its own.
+
+   Purpose:
+     - Maintain a clean, interference-free environment.
+     - Ensure comments remain visually consistent.
+     - Guarantee the NEO veil leaves no trace when revealed.
+     - Prevent accidental UI symbols from persisting.
+   ============================================================ */
+
+
+/* ------------------------------------------------------------
+   GLOBAL SAFETY NOTE
+   
+   If you need to add styles later (blur, subtle background, 
+   animation, etc.), they must be explicitly approved and 
+   documented in NEO CORE governance files.
+
+   For now, this file remains intentionally empty.
+   ------------------------------------------------------------ */
+
+/* (no rules defined) */
