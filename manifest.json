@@ -1,0 +1,56 @@
+﻿{
+  "manifest_version": 3,
+  "name": "NEO — Humane Web Shield (Neo Core 4.0)",
+  "version": "4.0.0",
+  "description": "Client-side sanctuary layer. Veils hostile comments with affirmations and microfacts from local packs on Instagram and YouTube. Zero-log, zero-storage, zero-surveillance.",
+  "action": {
+    "default_title": "NEO Online",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "permissions": [ "storage" ],
+  "host_permissions": [
+    "https://www.instagram.com/*",
+    "https://m.instagram.com/*",
+    "https://instagram.com/*",
+    "https://www.youtube.com/*",
+    "https://youtube.com/*",
+    "https://x.com/*",
+    "https://twitter.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.instagram.com/*",
+        "https://m.instagram.com/*",
+        "https://instagram.com/*",
+        "https://www.youtube.com/*",
+        "https://youtube.com/*"
+      ],
+      "js": [ "content.js" ],
+      "css": [ "content.css" ],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [ "packs/*.json", "icons/*.png", "core/inference.wasm" ],
+      "matches": [ "<all_urls>" ]
+    }
+  ]
+}

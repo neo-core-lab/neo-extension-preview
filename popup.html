@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>NEO — Humane Web Shield</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            margin: 12px;
+            min-width: 260px;
+        }
+
+        h1 {
+            font-size: 16px;
+            margin: 0 0 8px;
+        }
+
+        .section {
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .section-title {
+            font-weight: 600;
+            font-size: 13px;
+            margin-bottom: 4px;
+        }
+
+        label {
+            display: block;
+            font-size: 12px;
+            margin: 2px 0;
+        }
+
+        input[type="number"],
+        input[type="text"] {
+            width: 100%;
+            box-sizing: border-box;
+            font-size: 12px;
+            padding: 4px;
+            margin-top: 2px;
+        }
+
+        #packsGrid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2px;
+            max-height: 220px;
+            overflow-y: auto;
+            border: 1px solid #eee;
+            padding: 6px;
+            border-radius: 4px;
+        }
+
+        #status {
+            font-size: 11px;
+            margin-top: 4px;
+            min-height: 14px;
+        }
+
+        button {
+            font-size: 12px;
+            padding: 4px 10px;
+            margin-right: 6px;
+        }
+    </style>
+</head>
+<body>
+    <h1>NEO — Humane Web Shield</h1>
+
+    <!-- Basic toggles -->
+    <div class="section">
+        <div class="section-title">Basics</div>
+
+        <label>
+            <input type="checkbox" id="enableAffirmations" />
+            Show affirmations
+        </label>
+        <label>
+            <input type="checkbox" id="enableMicrofacts" />
+            Show microfacts
+        </label>
+        <label>
+            <input type="checkbox" id="enableAutomationBadge" />
+            Show automation badge (⚙︎) on #auto comments
+        </label>
+
+        <label>
+            Auto-tag (marks your own automations):
+            <input type="text" id="autoTag" placeholder="#auto" />
+        </label>
+
+        <label>
+            Rescan interval (ms):
+            <input type="number" id="rescanMs" min="500" step="100" />
+        </label>
+    </div>
+
+    <!-- Harm filter toggle -->
+    <div class="section">
+        <div class="section-title">Harm Filter</div>
+        <label>
+            <input type="checkbox" id="harmFilterEnabled" />
+            Only veil harmful comments (where supported, e.g., YouTube)
+        </label>
+        <small style="font-size:11px;opacity:0.8;">
+            When off, NEO veils all comments on supported sites. Instagram still uses comment-only veiling either way.
+        </small>
+    </div>
+
+    <!-- Packs -->
+    <div class="section">
+        <div class="section-title">Packs used for veiling</div>
+        <small style="font-size:11px;opacity:0.8;">
+            Select one or more packs. NEO will randomly pick from the combined pool.
+        </small>
+
+        <div id="packsGrid">
+            <!-- Core / grounding -->
+            <label><input type="checkbox" data-pack="core"> Core (default safety net)</label>
+            <label><input type="checkbox" data-pack="kindness"> Kindness</label>
+            <label><input type="checkbox" data-pack="emotional_intelligence"> Emotional intelligence</label>
+            <label><input type="checkbox" data-pack="affirmations"> Affirmations</label>
+            <label><input type="checkbox" data-pack="charisma"> Charisma</label>
+
+            <!-- Myth / archetype / philosophy -->
+            <label><input type="checkbox" data-pack="philosophy"> Philosophy</label>
+            <label><input type="checkbox" data-pack="mythic"> Mythic</label>
+            <label><input type="checkbox" data-pack="archetypes"> Archetypes</label>
+            <label><input type="checkbox" data-pack="universal_laws"> Universal laws</label>
+
+            <!-- Systems / world -->
+            <label><input type="checkbox" data-pack="economics"> Economics</label>
+            <label><input type="checkbox" data-pack="ecology"> Ecology</label>
+            <label><input type="checkbox" data-pack="index"> Index (generic)</label>
+            <label><input type="checkbox" data-pack="microfacts"> Microfacts</label>
+
+            <!-- Neuroscience -->
+            <label><input type="checkbox" data-pack="neuroscience"> Neuroscience (general)</label>
+            <label><input type="checkbox" data-pack="neuroscience_emotion"> Neuroscience — emotion</label>
+            <label><input type="checkbox" data-pack="neuroscience_cognition"> Neuroscience — cognition</label>
+            <label><input type="checkbox" data-pack="neuroscience_body"> Neuroscience — body &amp; nervous system</label>
+            <label><input type="checkbox" data-pack="neuroscience_consciousness"> Neuroscience — consciousness</label>
+        </div>
+    </div>
+
+    <div class="section">
+        <button id="saveBtn">Save</button>
+        <button id="rescanBtn">Rescan</button>
+        <div id="status"></div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
+
