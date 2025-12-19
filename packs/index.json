@@ -1,0 +1,31 @@
+{
+    "index": [
+        { "id": "affirmations", "label": "Affirmations" },
+        { "id": "advanced_grammar", "label": "Advanced Grammar" },
+        { "id": "archetypes", "label": "Archetypes" },
+        { "id": "charisma", "label": "Charisma" },
+        { "id": "dada", "label": "DADA" },
+        { "id": "ecology", "label": "Ecology" },
+        { "id": "economics", "label": "Economics" },
+        { "id": "emotion", "label": "Emotional Intelligence" },
+        { "id": "english_grammar", "label": "English Grammar" },
+        { "id": "enlightenment", "label": "Enlightenment" },
+        { "id": "kindness", "label": "Kindness" },
+        { "id": "microfacts", "label": "Micro Facts" },
+        { "id": "mythic", "label": "Mythic / Mythology" },
+        { "id": "neuroscience", "label": "Neuroscience (General)" },
+        { "id": "neuroscience_body", "label": "Neuroscience � Body" },
+        { "id": "neuroscience_cognition", "label": "Neuroscience � Cognition" },
+        { "id": "neuroscience_consciousness", "label": "Neuroscience � Consciousness" },
+        { "id": "neuroscience_emotion", "label": "Neuroscience � Emotion" },
+        { "id": "philosophy", "label": "Philosophy" },
+        { "id": "poetry", "label": "Poetry" },
+        { "id": "punctuation_mastery", "label": "Punctuation Mastery" },
+        { "id": "renaissance", "label": "Renaissance" },
+        { "id": "resilience", "label": "Resilience" },
+        { "id": "stoicism", "label": "Stoicism" },
+        { "id": "trauma", "label": "Trauma" },
+        { "id": "universal_laws", "label": "Universal Laws" }
+    ]
+}
+

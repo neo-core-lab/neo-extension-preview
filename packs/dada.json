@@ -1,0 +1,418 @@
+Here’s`dada.json` in the exact format Neo expects(`{ "entries": [ { "text": "..." }, ... ] }`).
+You can drop this into `packs/dada.json` and add `"dada"` to your `index.json` meta - pack list.
+
+```json
+{
+  "entries": [
+    {
+      "text": "Hugo Ball believed political language had become a form of hypnosis, so he stripped it down to sounds to reveal how easily words shape emotion."
+    },
+    {
+      "text": "DADA sound poetry wasn’t nonsense; it was a refusal to let governments use polished language to justify violence."
+    },
+    {
+      "text": "For DADA, meaning was not discovered but manufactured, and understanding that is the beginning of media literacy."
+    },
+    {
+      "text": "Tristan Tzara’s cut-up poems showed that newspapers create narratives not through facts alone, but through the order they choose to arrange them in."
+    },
+    {
+      "text": "Once you learn that rearranging the same facts creates a different story, you will never read the news passively again."
+    },
+    {
+      "text": "Hugo Ball treated broken language as medicine; cure the words and you free the mind from inherited ideologies."
+    },
+    {
+      "text": "DADA argued that the most dangerous voice is the one that sounds authoritative, because authority can disguise manipulation as common sense."
+    },
+    {
+      "text": "Hannah Höch cut apart Weimar-era media to expose how images construct political identity long before algorithms did."
+    },
+    {
+      "text": "Hannah Höch’s photomontages were not just aesthetics; they were some of the first visual critiques of propaganda in the mass-media age."
+    },
+    {
+      "text": "When you fragment an image, you reveal the assumptions that held it together; DADA used fragmentation to show where power hides."
+    },
+    {
+      "text": "DADA rejected rationality not because they opposed logic, but because they saw how often so-called logic had been used to justify oppression."
+    },
+    {
+      "text": "DADAists believed no idea deserved automatic respect; every belief had to be examined, cut apart, and reassembled with intention."
+    },
+    {
+      "text": "DADA emerged during World War I as a rebellion against nationalism’s seductive language; its artists attacked the poetry of war."
+    },
+    {
+      "text": "To DADA, truth was not a monument but scaffolding, and every scaffolding is built by someone with power."
+    },
+    {
+      "text": "When language becomes too rigid, it stops describing reality and starts controlling it; DADA’s nonsense was a way to break the cage."
+    },
+    {
+      "text": "Nonsense has power because it interrupts scripts written by institutions; confusion can be a space where new thought emerges."
+    },
+    {
+      "text": "Propaganda relies on repetition and predictability; DADA introduced chaos to break the system’s grip on the mind."
+    },
+    {
+      "text": "Hannah Höch treated magazines and newspapers as raw material, showing that identity is something society builds, not something you simply are."
+    },
+    {
+      "text": "DADA’s wild forms were intentional; shape disrupts expectation, and disruption short-circuits ideological conditioning."
+    },
+    {
+      "text": "When DADA confused audiences, it wasn’t to mock them but to snap them out of narratives designed to think for them."
+    },
+    {
+      "text": "Hannah Höch used photomontage to expose how 1920s media constructed gender, turning collage into an early form of gender critique."
+    },
+    {
+      "text": "Tristan Tzara cut newspapers into fragments to demonstrate that news isn’t neutral truth but arrangement and selection."
+    },
+    {
+      "text": "Hugo Ball believed World War I proved that language had been twisted into propaganda; his sound poems were a detox for the public mind."
+    },
+    {
+      "text": "Jean Arp used chance compositions to challenge the idea that authority must control outcomes; randomness became his quiet politics."
+    },
+    {
+      "text": "Kurt Schwitters collected debris from war-torn streets to build his Merz works, teaching that meaning can be reconstructed from cultural wreckage."
+    },
+    {
+      "text": "Raoul Hausmann invented sound poetry to liberate the human voice from political scripts, returning emotion to the individual."
+    },
+    {
+      "text": "Marcel Duchamp’s ready-mades exposed how museums and institutions, not objects, create cultural value."
+    },
+    {
+      "text": "Francis Picabia created absurd mechanical drawings to mock society’s faith in technology and efficiency at the expense of humanity."
+    },
+    {
+      "text": "Man Ray, born Emmanuel Radnitzky, used his rayographs to reveal forms the eye normally ignores, turning photography into philosophy."
+    },
+    {
+      "text": "Sophie Taeuber-Arp used geometric abstraction to dismantle traditional aesthetics, proving that clarity can be revolutionary."
+    },
+    {
+      "text": "Emmy Hennings turned performance into political resistance at the Cabaret Voltaire, using absurdity to expose the absurdity of war."
+    },
+    {
+      "text": "Hans Richter’s experimental films rejected narrative because narratives can manipulate; he trusted abstraction more than plot."
+    },
+    {
+      "text": "Richard Huelsenbeck used rhythmic, aggressive poetry to disrupt the steady march of nationalist rhetoric."
+    },
+    {
+      "text": "Johannes Baader staged prank-like interventions to show that bureaucracy becomes ridiculous when stripped of its borrowed authority."
+    },
+    {
+      "text": "Marcel Janco designed masks for DADA performances to show that modern society already forces people to wear invisible ones."
+    },
+    {
+      "text": "Elsa von Freytag-Loringhoven shattered norms with her assemblages, proving that everyday objects can carry explosive critique."
+    },
+    {
+      "text": "Georges Ribemont-Dessaignes wrote plays where cause and effect fell apart to demonstrate how fragile rationality looks under stress."
+    },
+    {
+      "text": "Walter Serner warned that the desire for certainty makes people easy to manipulate; ambiguity can protect freedom."
+    },
+    {
+      "text": "Arthur Cravan treated his life as a DADA performance, showing that identity can be intentionally constructed, not just inherited."
+    },
+    {
+      "text": "Hugo Ball saw political speeches as dangerous rituals, so he destroyed ritualistic language to reveal how easily people fall under its spell."
+    },
+    {
+      "text": "Tristan Tzara believed chaos reveals the scaffolding of ideology; when you break structure, you finally see what held it together."
+    },
+    {
+      "text": "Hannah Höch showed that you can edit society’s visual script the same way she edited magazines—cut, rearrange, question."
+    },
+    {
+      "text": "Marcel Duchamp taught that choosing an object is itself a creative act, a lesson in how much control we have over what we value."
+    },
+    {
+      "text": "Hugo Ball used incoherence to expose how leaders use smooth, coherent language to smuggle harmful ideas into public emotion."
+    },
+    {
+      "text": "Kurt Schwitters rebuilt meaning from rubble, suggesting that after ideological collapse, individuals must reconstruct truth piece by piece."
+    },
+    {
+      "text": "Francis Picabia’s absurd machine drawings warned that societies worship efficiency even when it dehumanizes people."
+    },
+    {
+      "text": "Jean Arp trusted randomness because he saw how rigid control can quietly turn into tyranny."
+    },
+    {
+      "text": "Raoul Hausmann’s vocal experiments stripped the human voice from political scripts, resetting the emotional engine."
+    },
+    {
+      "text": "Man Ray’s photography showed how light manipulates perception long before digital filters existed."
+    },
+    {
+      "text": "Sophie Taeuber-Arp’s rigorous geometries proved that precision can push against chaos rather than reinforce it."
+    },
+    {
+      "text": "Emmy Hennings used performance to reveal how social expectations script behavior; once you see the script, you can rewrite it."
+    },
+    {
+      "text": "Hans Richter believed abstraction told the truth about emotion because real feelings rarely follow a neat storyline."
+    },
+    {
+      "text": "Richard Huelsenbeck used erratic rhythms to break emotional scripts written by state propaganda."
+    },
+    {
+      "text": "Johannes Baader treated official ceremonies as theater, exposing how institutions rely on performance to appear legitimate."
+    },
+    {
+      "text": "Marcel Janco’s masks exposed society’s invisible expectations; once you see the mask, you stop wearing it unconsciously."
+    },
+    {
+      "text": "Elsa von Freytag-Loringhoven lived as if identity were art, challenging cultures that try to dictate who you must be."
+    },
+    {
+      "text": "Georges Ribemont-Dessaignes pushed rationality into absurdity to show that logic can justify nearly anything when misused."
+    },
+    {
+      "text": "Walter Serner attacked conventional morality to reveal how often morals are tools of social control."
+    },
+    {
+      "text": "Arthur Cravan blurred the line between art and life to undermine society’s obsession with stability and predictability."
+    },
+    {
+      "text": "Emmy Hennings believed compassion was the antidote to a collapsing world; DADA was her way of restoring humanity in the ruins."
+    },
+    {
+      "text": "Tristan Tzara used satire to expose political contradictions, wielding laughter as a sharper critique than argument."
+    },
+    {
+      "text": "Hannah Höch used mismatched faces in her collages to reveal how societies invent stereotypes to simplify human complexity."
+    },
+    {
+      "text": "Marcel Duchamp removed the artist’s hand from art to challenge the myth of individual genius and shift focus to ideas."
+    },
+    {
+      "text": "Hugo Ball saw patriotism turn Europe into a battlefield and attacked the seductive simplicity of national slogans."
+    },
+    {
+      "text": "Kurt Schwitters rejected idealized art because idealism often hides brutality; he chose fragments over fantasies."
+    },
+    {
+      "text": "Francis Picabia’s machine diagrams were spiritual warnings about societies that reduce people to functions."
+    },
+    {
+      "text": "Jean Arp surrendered control to chance to remind viewers that freedom includes letting go of imposed order."
+    },
+    {
+      "text": "Raoul Hausmann’s critiques of technocratic culture warned that modern societies risk turning people into replaceable parts."
+    },
+    {
+      "text": "Man Ray demonstrated that every photograph is an interpretation, not neutral evidence."
+    },
+    {
+      "text": "Sophie Taeuber-Arp arranged geometric forms without hierarchy, suggesting an ethics of equality through composition."
+    },
+    {
+      "text": "Emmy Hennings used cabaret art to defy moral codes imposed on women, turning performance into a tool of autonomy."
+    },
+    {
+      "text": "Hans Richter removed illusion from film to show how easily moving images persuade by pretending to be natural."
+    },
+    {
+      "text": "Richard Huelsenbeck believed emotional autonomy protects people from propaganda more than abstract logic does."
+    },
+    {
+      "text": "Johannes Baader mocked bureaucratic procedures to reveal how often they mask emptiness with formality."
+    },
+    {
+      "text": "Marcel Janco filled his works with visual noise to show that beneath apparent chaos, deeper structures still emerge."
+    },
+    {
+      "text": "Elsa von Freytag-Loringhoven used her own body as artwork to defy strict gender norms and reclaim self-possession."
+    },
+    {
+      "text": "Georges Ribemont-Dessaignes exposed the limits of reason by driving logical structures to absurd outcomes."
+    },
+    {
+      "text": "Walter Serner wrote about con artists to show how easily people believe what they are already inclined to want."
+    },
+    {
+      "text": "Arthur Cravan crafted a persona so unpredictable that he became untouchable, using self-mythology as protection."
+    },
+    {
+      "text": "Hugo Ball believed the collapse of Europe revealed the failure of grand narratives like empire and nation."
+    },
+    {
+      "text": "Tristan Tzara taught that knowledge is always fragmentary and that absolute certainty is a kind of intellectual laziness."
+    },
+    {
+      "text": "Hannah Höch cut apart beauty magazines to reveal how modern culture manufactures femininity for public consumption."
+    },
+    {
+      "text": "Marcel Duchamp insisted that the idea matters more than execution, a shift that helped give birth to conceptual art."
+    },
+    {
+      "text": "Hugo Ball showed that dangerous ideas often hide inside ordinary words, especially the familiar vocabulary of nationalism."
+    },
+    {
+      "text": "Kurt Schwitters salvaged discarded materials to challenge a culture obsessed with polished surfaces."
+    },
+    {
+      "text": "Francis Picabia used anti-art to expose how art institutions mimic political institutions by depending on authority, not insight."
+    },
+    {
+      "text": "Jean Arp embraced organic forms as an antidote to the rigid ideology that helped fuel nationalism."
+    },
+    {
+      "text": "Raoul Hausmann’s critiques of mechanization warned that modern societies risk replacing people with functions."
+    },
+    {
+      "text": "Man Ray proved that cameras interpret rather than capture reality, a crucial lesson for the digital age."
+    },
+    {
+      "text": "Sophie Taeuber-Arp believed abstraction could create a visual space where forms—and by implication, people—are equal."
+    },
+    {
+      "text": "Emmy Hennings turned to art as survival during political collapse, suggesting that creativity is essential when systems fail."
+    },
+    {
+      "text": "Hans Richter treated film images like thoughts—abstract, fleeting, and shaped by motion rather than logic."
+    },
+    {
+      "text": "Richard Huelsenbeck used aggressive poetry to attack militaristic culture, weaponizing rhythm instead of ideology."
+    },
+    {
+      "text": "Johannes Baader’s absurd political stunts revealed that institutions often rely on spectacle more than substance."
+    },
+    {
+      "text": "Marcel Janco’s distorted figures captured psychological fragmentation decades before psychology had language for it."
+    },
+    {
+      "text": "Elsa von Freytag-Loringhoven believed individuals had the right to design their own identity long before identity politics."
+    },
+    {
+      "text": "Georges Ribemont-Dessaignes pushed rational structures into absurdity to show that logic can be used theatrically, not just truthfully."
+    },
+    {
+      "text": "Walter Serner attacked the idea of respectability as a mask used to control dissent."
+    },
+    {
+      "text": "Arthur Cravan refused stable roles to undermine society’s expectation that identity must remain fixed."
+    },
+    {
+      "text": "Emmy Hennings exposed morality as performance, inviting people to choose their own ethical script."
+    },
+    {
+      "text": "Tristan Tzara believed the so-called natural order of society was rarely natural and often engineered to benefit those in power."
+    },
+    {
+      "text": "Hannah Höch dissected advertisements to show how consumer culture sells identity long before it sells objects."
+    },
+    {
+      "text": "Marcel Duchamp argued that the viewer completes the artwork, turning interpretation into a shared responsibility."
+    },
+    {
+      "text": "Hugo Ball showed that meaning collapses when language loses integrity, a warning for any era overloaded with slogans."
+    },
+    {
+      "text": "Kurt Schwitters used trash to reveal that societies discard truths along with objects."
+    },
+    {
+      "text": "Francis Picabia mocked society’s faith in experts and machines, reminding viewers that all systems inherit human flaws."
+    },
+    {
+      "text": "Jean Arp arranged shapes without hierarchy, challenging traditions that place some forms—and some people—above others."
+    },
+    {
+      "text": "Raoul Hausmann’s sculpture 'Mechanical Head' portrayed a society that had replaced thought with automatic obedience."
+    },
+    {
+      "text": "Man Ray’s experiments taught that every image interprets reality, and questioning images is part of psychological independence."
+    },
+    {
+      "text": "Sophie Taeuber-Arp used symmetry to express an ethical vision of balance and justice."
+    },
+    {
+      "text": "Emmy Hennings knew that freedom is fragile in times of fear and used art to keep imagination alive when politics tried to crush it."
+    },
+    {
+      "text": "Hans Richter’s abstract films teach that clarity does not always come from realism; sometimes it comes from refusing illusion."
+    },
+    {
+      "text": "Richard Huelsenbeck used satire to expose how states manipulate emotion; ridicule breaks the spell of power."
+    },
+    {
+      "text": "Johannes Baader broke the aura of authority by behaving absurdly in serious places, proving that power depends on atmosphere."
+    },
+    {
+      "text": "Marcel Janco’s fragmented figures mirrored how modern life had already fragmented the self."
+    },
+    {
+      "text": "Elsa von Freytag-Loringhoven reclaimed ownership of her body and identity in a culture determined to dictate both."
+    },
+    {
+      "text": "Georges Ribemont-Dessaignes used anti-logic to expose the twisted logic governments used to justify violence."
+    },
+    {
+      "text": "Walter Serner warned that simplistic explanations are dangerous because they make complex problems easy to manipulate."
+    },
+    {
+      "text": "Arthur Cravan lived as a performance to prove that identity is something you create, not something assigned."
+    },
+    {
+      "text": "Sophie Taeuber-Arp elevated craft to the level of fine art, challenging class and gender hierarchies embedded in culture."
+    },
+    {
+      "text": "Tristan Tzara used fragmentation to break the spell of false coherence, because dangerous ideas often hide in perfect order."
+    },
+    {
+      "text": "Human dignity herded into a few roles is what Hannah Höch fought; her collages invite you to reconstruct yourself on your own terms."
+    },
+    {
+      "text": "Marcel Duchamp showed that context shapes meaning, a shift that would later define postmodern theory."
+    },
+    {
+      "text": "Hugo Ball believed rational language used to justify violence was Europe’s greatest moral failure."
+    },
+    {
+      "text": "Kurt Schwitters taught that overlooked objects carry overlooked truths, challenging hierarchies of value."
+    },
+    {
+      "text": "Francis Picabia showed that even rejecting ideology can become its own ideology; awareness, not purity, is the real defense."
+    },
+    {
+      "text": "Jean Arp valued chance because it cannot lie, using randomness to expose the artificiality of imposed order."
+    },
+    {
+      "text": "Raoul Hausmann warned that modern systems are often designed to dehumanize quietly, through rules rather than open violence."
+    },
+    {
+      "text": "Man Ray’s surreal photographs captured inner states rather than outer appearances, turning images into psychological maps."
+    },
+    {
+      "text": "Emmy Hennings wrote about human fragility to remind us that political upheaval is experienced first in the individual nervous system."
+    },
+    {
+      "text": "Hans Richter treated images as thoughts, helping viewers see that mental life does not follow tidy narratives."
+    },
+    {
+      "text": "Richard Huelsenbeck believed intense feeling sometimes cuts through collective delusion faster than polite debate."
+    },
+    {
+      "text": "Johannes Baader exposed authority as performance; remove the costume and the power often disappears."
+    },
+    {
+      "text": "Elsa von Freytag-Loringhoven showed that personal autonomy begins at the point where conformity ends."
+    },
+    {
+      "text": "Walter Serner taught that societies cling to the illusion of stability even when it is already broken underneath."
+    },
+    {
+      "text": "Hugo Ball believed the artist’s duty was to disrupt harmful systems, because silence only strengthens the status quo."
+    }
+  ]
+}
+```
+

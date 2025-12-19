@@ -1,0 +1,4 @@
+{
+	"defaults": [ "affirmations", "microfacts" ],
+	"allowCustom": true
+}
