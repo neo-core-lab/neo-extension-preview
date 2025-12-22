@@ -240,9 +240,9 @@ If you respect this rule, your contribution will fit.
 
 By submitting this PR, you confirm that:
 
-- [ ] I modified only one adapter (`IGAdapter`, `XAdapter`, or `YouTubeAdapter`)  
-- [ ] I did not add logs, telemetry, storage, or network calls  
-- [ ] All DOM assumptions are guarded with `AdapterStabilityError`  
-- [ ] The adapter fails open when uncertain (no partial behavior)  
-- [ ] I preserved the exact `FunctionalAdapter` interface  
-- [ ] `integrity.spec.js` passes without modification  
+- [ ] I modified only one adapter (`IGAdapter`, `XAdapter`, or `YouTubeAdapter`)
+- [ ] I did not add logs, telemetry, storage, or network calls
+- [ ] Root discovery is fail-fast: if the comment root cannot be detected, the adapter throws `AdapterStabilityError` (no silent degradation)
+- [ ] The adapter fails fast when uncertain; the system fails open (NEO does nothing on that page)
+- [ ] I preserved the exact `FunctionalAdapter` interface
+- [ ] `integrity.spec.js` passes without modification
