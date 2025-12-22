@@ -2,6 +2,21 @@ Contributing to NEO — Adapters Only
 
 Thank you for your interest in contributing to NEO.
 
+Future Participation Path
+
+Significant contributors to NEO adapters may be eligible for:
+
+paid contracts
+
+paid maintenance roles
+
+advisory positions
+
+or participation in future funding rounds
+
+Eligibility is evaluated at the sole discretion of the founder and is not implied by contribution.
+Contribution alone does not confer ownership, governance rights, or equity.
+
 This repository accepts adapter contributions only.
 Adapters are stabilization modules, not feature code.
 
