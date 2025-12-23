@@ -6,6 +6,12 @@ Thank you for your interest in contributing to NEO.
 
 ## Future participation path
 
+This phase of NEO is supported by voluntary, spare-time contributions.
+There is no compensation at this stage.
+
+All work is intentionally narrow in scope and designed so that a few focused
+hours can make a meaningful contribution without ongoing obligation.
+
 Significant contributors to NEO adapters may be eligible for:
 
 - paid contracts  
