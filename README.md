@@ -165,9 +165,24 @@ Observes decision metadata only, never content.
 Audits stability, doctrine compliance, and drift.
 
 ### L3 — Application layer (future)
+(Constraints only. Not implemented in this repository.)
 
-Web, Studio, educational tools.  
-Never allowed to weaken L0–L1 or require Core to phone home.
+User-facing applications, tools, and services may exist as **local-first interfaces**.
+
+Some L3 services may call home (e.g., hosting, updates, payments); this must **never** change L1 Core behavior or constraints. 
+
+L3 may optionally provide **device-local convenience memory** (e.g., bookmarks, recent pages) strictly for user experience.  
+Such memory must be opt-in, user-erasable, and opaque to Core (L1).
+
+Core (L1) must not:
+
+- collect telemetry  
+- exfiltrate content  
+- require identity  
+- depend on any L3 memory to function  
+
+L3 must never weaken L0–L1 constraints or make protection dependent on a network connection.  
+If an L3 feature requires surveillance to function, that feature is rejected.
 
 ---
 
@@ -370,3 +385,4 @@ By submitting this PR, you confirm that:
 - [x] The adapter fails fast (throws) when uncertain; the system fails open (NEO does nothing on that page)  
 - [x] I preserved the exact `FunctionalAdapter` interface  
 - [x] `integrity.spec.js` passes without modification  
+
