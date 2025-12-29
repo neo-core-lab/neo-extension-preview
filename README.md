@@ -52,7 +52,7 @@ Current focus:
 - DOM drift hardening  
 - UX edge-case polish  
 
-🚫 No new features are accepted outside adapter stabilization.
+🚫 No new features are accepted at this time outside adapter stabilization.
 
 ### Core constraints (non-negotiable)
 
@@ -385,4 +385,5 @@ By submitting this PR, you confirm that:
 - [x] The adapter fails fast (throws) when uncertain; the system fails open (NEO does nothing on that page)  
 - [x] I preserved the exact `FunctionalAdapter` interface  
 - [x] `integrity.spec.js` passes without modification  
+
 
