@@ -1,4 +1,4 @@
-﻿{
+{
   "manifest_version": 3,
   "name": "NEO — Humane Web Shield (Neo Core 4.0)",
   "version": "4.0.0",
@@ -23,7 +23,7 @@
     "service_worker": "background.js",
     "type": "module"
   },
-  "permissions": [ "storage" ],
+  "permissions": ["storage"],
   "host_permissions": [
     "https://www.instagram.com/*",
     "https://m.instagram.com/*",
@@ -42,15 +42,15 @@
         "https://www.youtube.com/*",
         "https://youtube.com/*"
       ],
-      "js": [ "content.js" ],
-      "css": [ "content.css" ],
+      "js": ["content.js"],
+      "css": ["content.css"],
       "run_at": "document_idle"
     }
   ],
   "web_accessible_resources": [
     {
-      "resources": [ "packs/*.json", "icons/*.png", "core/inference.wasm" ],
-      "matches": [ "<all_urls>" ]
+      "resources": ["packs/*.json", "icons/*.png", "core/inference.wasm"],
+      "matches": ["<all_urls>"]
     }
   ]
 }
